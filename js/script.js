@@ -1,29 +1,12 @@
 "use strict";
 
-// alert(`Hello`);
+console.log(`arr` + "- object");
 
-// const result = confirm("Are you here?");
+let incr = 10,
+    decr = 10;
 
-// console.log(result);
+// ++incr;
+// --decr;
 
-
-// const answer = +prompt("Вам есть 18?", "");
-// console.log((answer + 5));
-
-// const answers = [];
-
-// answers[0] = prompt("Как ваше имя?", "");
-// answers[1] = prompt("Как ваша фамилия?", "");
-// answers[2] = prompt("Сколько вам лет?", "");
-
-// document.write(answers);
-
-
-
-const category = `toys`;
-
-console.log(`https://someurl.com/${category}/5`);
-
-const user = "Ivan";
-
-alert(`Привет, ${user}`);
+console.log(incr++);
+console.log(decr--);
